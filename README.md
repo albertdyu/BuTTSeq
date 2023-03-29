@@ -57,17 +57,23 @@ If you are new to conda and/or snakemake, you'll need to install the appropriate
 1. Clone or download this github repo into a directory containing your RNA-Seq files. 
 2. Inside your terminal, create a conda environment with the necessary dependencies by running the following command:
 
-    'conda env create --name butt --file envs/environment.yaml'
+
+    conda env create --name butt --file envs/environment.yaml
+
 
 3. Activate your new conda environment with the following command:
 
-    'conda activate butt'
+
+    conda activate butt
+
 
 4. Set up your config.yaml, as described below.
 
 5. Run the Snakemake pipeline with the following command (Alter the number of cores as desired):
 
-    'snakemake --cores 8 --configfile config.yaml'
+
+    snakemake --cores 8 --configfile config.yaml
+
 
 ## Configuration
 
