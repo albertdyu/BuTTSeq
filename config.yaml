@@ -1,0 +1,11 @@
+samples:
+    FiveHundoThou: 3/5x10e5_S3
+    TenThou: 6/1x10e4_S6
+annotation:
+    /data/hyperion/ALBERT/A163B_Circadian/dm6.refGene.gtf
+index:
+    /data/hyperion/ALBERT/A163B_Circadian/genome
+smallRNAs:
+    beds/snoRNAs.5.bed
+exonends:
+    beds/dm6EE.subTES.bed
