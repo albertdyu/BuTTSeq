@@ -72,18 +72,31 @@ If you are new to conda and/or snakemake, you'll need to install the appropriate
 ## Configuration
 
 'config.yaml' must be edited to the following parameters:
+
 samples:
+
     (SampleName_1): Path/To/Sample1
+    
     (SampleName_2): Path/To/Sample2
+    
     etc. etc.
+    
 annotation:
+
     Path/To/GTF/Annotation
+    
 index:
+
     Path/To/STAR/Index
+    
 smallRNAs:
+
     Path/To/Undesirable/SmallRNAs
+    
 exonends:
+
     Path/To/ExonEnds
+    
 
 Small RNAs consist of chromatin-associated RNAs that are not thought to be products of active transcription and are typically not an analyte of interest, so they are computationally removed. 
 
