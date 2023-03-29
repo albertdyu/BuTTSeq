@@ -40,7 +40,7 @@ and demultiplex using Bcl2fastq as usual.
 
 - 'beds/': A bed file describing the 3' end of small RNAs and one bed file describing the 3' end of exons in the Drosophila Melanogaster assembly dm6. 
 
-- '/scripts': A series of scripts used to process the data, including:
+- 'scripts/': A series of scripts used to process the data, including:
 
     - removeclipping.py: A script from NGSUtils, slightly modified to suit this pipeline (Breese et al, 2013). This script removes softclipped reads from the BAM file prior to conversion into single nucleotide reads. Without removing softclipping first, the following script will erroneously assign the 3' most end as the soft-clipped base. 
 
