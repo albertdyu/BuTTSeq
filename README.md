@@ -20,11 +20,11 @@ This pipeline requires 3 fastq files, formatted as such:
 
 To produce 3 read files from a sequencing run, edit this line in RunInfo.xml:
 
-* ___<Read Number="2" NumCycles="8" IsIndexedRead="Y" />
+\<Read Number="2" NumCycles="8" IsIndexedRead="Y" />
 
 to 
 
-* ___<Read Number="2" NumCycles="8" IsIndexedRead="N" />
+\<Read Number="2" NumCycles="8" IsIndexedRead="N" />
 
 and demultiplex using Bcl2fastq as usual. 
 
