@@ -75,6 +75,7 @@ dependencies:
   - docutils=0.19=py310hff52083_1
   - dpath=2.1.5=py310hff52083_0
   - dropbox=11.36.0=pyhd8ed1ab_0
+  - eta=0.9.7=pyh864c0ab_3
   - exceptiongroup=1.1.1=pyhd8ed1ab_0
   - expat=2.5.0=h27087fc_0
   - fastp=0.23.2=h5f740d0_3
@@ -363,3 +364,4 @@ dependencies:
   - zipp=3.15.0=pyhd8ed1ab_0
   - zlib=1.2.13=h166bdaf_4
   - zstd=1.5.2=h3eb15da_6
+prefix: /home/adyu/.conda/envs/based/envs/cringe/envs/butt
